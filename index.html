@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siimple</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="main-container" onclick="bar()">
+      <header>
+        <div class="header">
+          <p class="logo">Siimple</p>
+
+          <div class="header-title-box">
+            <p class="title">Welcome to Siimple</p>
+            <p class="subtitle">
+              Please, fill out the for below to be notified for the latest
+              updates!
+            </p>
+            <div class="header-input-box">
+              <input class="name" type="text" placeholder="Your Name" />
+              <input class="email" type="text" placeholder="Your Email" />
+            </div>
+            <button class="button">Notify me!</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="padding-section">
+        <div class="section-one container" id="about-section">
+          <div class="img-box">
+            <img
+              src="./assets/images/about-img.jpg"
+              alt="about-section-image"
+            />
+          </div>
+
+          <div class="about-section-text-box">
+            <p class="about-section-title">
+              Smollitia reiciendis delectus! Accusamus laboriosam esse natus
+              dolorum
+            </p>
+            <p class="about-section-subtitle">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Architecto quam fugit in tenetur veniam vitae, nihil vel beatae
+              ab!
+            </p>
+            <ul>
+              <li>
+                <img src="./assets/images/double-checking.png" alt="check" />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </li>
+              <li>
+                <img src="./assets/images/double-checking.png" alt="check" />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </li>
+              <li>
+                <img src="./assets/images/double-checking.png" alt="check" />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </li>
+              <p class="last-list">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
+                repellat ad autem consequatur quas excepturir wekici end!
+              </p>
+            </ul>
+            <p class="last-text">
+              Codeleniti numquam dolorum saepe? Sequi quae molestias ex, dicta
+              minus quos sapiente ullam qui delectus, ducimus blanditiis!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-section-bg-section" id="why-section">
+        <div class="cards-section container">
+          <div class="card">
+            <div class="img-div">
+              <img src="./assets/images/why-us-1.jpg" alt="why us image " />
+            </div>
+            <div class="icon-div">
+              <i class="fas fa-book-reader"></i>
+            </div>
+            <p class="card-title">Our Mission</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum
+              autem quibusdam placeat odit eligendi? Praesentium libero minima
+              reprehenderit ipsa quasi quae corporis? Quaerat nam facere
+              voluptatibus accusamus voluptates. Perferendis.
+            </p>
+          </div>
+          <div class="card">
+            <div class="img-div">
+              <img src="./assets/images/why-us-2.jpg" alt="why us image " />
+            </div>
+            <div class="icon-div">
+              <i class="fas fa-edit"></i>
+            </div>
+            <p class="card-title">Our Plan</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum
+              autem quibusdam placeat odit eligendi? Praesentium libero minima
+              reprehenderit ipsa quasi quae corporis? Quaerat nam facere
+              voluptatibus accusamus voluptates.
+            </p>
+          </div>
+          <div class="card">
+            <div class="img-div">
+              <img src="./assets/images/why-us-3.jpg" alt="why us image " />
+            </div>
+            <div class="icon-div">
+              <i class="fas fa-image"></i>
+            </div>
+            <p class="card-title">Our Vision</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum
+              autem quibusdam placeat odit eligendi? Praesentium libero minima
+              reprehenderit ipsa quasi quae corporis? Quaerat nam facere
+              voluptatibus accusamus voluptates. Perferendis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section-wrapper">
+        <div class="faq-section container">
+          <p class="faq-title">Frequently Asked Questions</p>
+          <p class="line"></p>
+          <div class="faq-main-box"></div>
+        </div>
+      </section>
+
+      <div class="portfolio-box">
+        <div class="title-div">
+          <p class="subtitle">Portfolio</p>
+          <p class="title">Check Our Portfolio</p>
+        </div>
+        <div class="portfolio-menu">
+          <button class="portfolio-btn" onclick="filter('all')">ALL</button
+          ><button class="portfolio-btn" onclick="filter('app')">APP</button>
+          <button class="portfolio-btn" onclick="filter('card')">CARD</button
+          ><button class="portfolio-btn" onclick="filter('web')">WEB</button>
+        </div>
+        <div class="portfolios">
+          <div class="portfolio app">
+            <img
+              class="portfolio-1"
+              src="./assets/portfolio/portfolio-1.jpg"
+              alt="portfolio image"
+            />
+          </div>
+          <div class="portfolio web">
+            <img
+              class="portfolio-2"
+              src="./assets/portfolio/portfolio-2.jpg"
+              alt="portfolio image"
+            />
+          </div>
+          <div class="portfolio card">
+            <img
+              class="portfolio-3"
+              src="./assets/portfolio/portfolio-3.jpg"
+              alt="portfolio image"
+            />
+          </div>
+          <div class="portfolio app">
+            <img
+              class="portfolio-4"
+              src="./assets/portfolio/portfolio-4.jpg"
+              alt="portfolio image"
+            />
+          </div>
+          <div class="portfolio web">
+            <img
+              class="portfolio-5"
+              src="./assets/portfolio/portfolio-5.jpg"
+              alt="portfolio image"
+            />
+          </div>
+          <div class="portfolio app">
+            <img
+              class="portfolio-6"
+              src="./assets/portfolio/portfolio-6.jpg"
+              alt="portfolio image"
+            />
+          </div>
+          <div class="portfolio web">
+            <img
+              class="portfolio-7"
+              src="./assets/portfolio/portfolio-7.jpg"
+              alt="portfolio image"
+            />
+          </div>
+          <div class="portfolio card">
+            <img
+              class="portfolio-8"
+              src="./assets/portfolio/portfolio-8.jpg"
+              alt="portfolio image"
+            />
+          </div>
+          <div class="portfolio card">
+            <img
+              class="portfolio-9"
+              src="./assets/portfolio/portfolio-9.jpg"
+              alt="portfolio image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <section class="contact-section-wrapper-section">
+        <div class="contact-section container" id="contact-section">
+          <p class="faq-title">Contact Us</p>
+          <p class="line"></p>
+          <div class="contact-wrapper">
+            <div class="contact-text-section">
+              <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <p class="location-text">
+                  A108 Adam Street <br />
+                  New York, NY 535022
+                </p>
+              </div>
+
+              <div class="location">
+                <i class="far fa-envelope"></i>
+                <div class="location-text">info@example.com</div>
+              </div>
+
+              <div class="location">
+                <i class="fas fa-phone-alt"></i>
+                <div class="location-text">+1 5545 55455 55s</div>
+              </div>
+
+              <div class="icons-div">
+                <div href="#" class="icons">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div href="#" class="icons">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div href="#" class="icons">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <div href="#" class="icons">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-section">
+              <form>
+                <input type="text" class="name" placeholder="your name" />
+                <input type="email" class="email" placeholder="your email" />
+                <input type="text" class="name" placeholder="your subject" />
+                <textarea cols="30" rows="10" placeholder="message"></textarea>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="side-bar">
+      <div class="i-box" onclick="sideBar()">
+        <i class="fas fa-bars bar"></i>
+      </div>
+      <div class="side-bar-container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-section">About Us</a></li>
+          <li><a href="#why-section">Why Us</a></li>
+          <li style="display: flex; justify-content: space-between">
+            <a href="#dropdown-section">Drop down</a>
+            <i class="fas fa-caret-down"></i>
+          </li>
+          <li><a href="#contact-section">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="upArrow">
+      <a href="#">
+        <i class="fas fa-arrow-circle-up"></i>
+      </a>
+    </div>
+
+    <!---js--link-->
+    <script src="js/index.js"></script>
+  </body>
+</html>
